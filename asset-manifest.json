@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/anilkorkmaz.github.io/static/css/main.adc13e32.chunk.css",
-    "main.js": "/anilkorkmaz.github.io/static/js/main.e783c8e4.chunk.js",
-    "main.js.map": "/anilkorkmaz.github.io/static/js/main.e783c8e4.chunk.js.map",
+    "main.js": "/anilkorkmaz.github.io/static/js/main.0aff76dc.chunk.js",
+    "main.js.map": "/anilkorkmaz.github.io/static/js/main.0aff76dc.chunk.js.map",
     "runtime-main.js": "/anilkorkmaz.github.io/static/js/runtime-main.fe8a197d.js",
     "runtime-main.js.map": "/anilkorkmaz.github.io/static/js/runtime-main.fe8a197d.js.map",
     "static/js/2.ba6ef29a.chunk.js": "/anilkorkmaz.github.io/static/js/2.ba6ef29a.chunk.js",
@@ -28,6 +28,7 @@
     "static/media/03-folder_or_file_size_command.1fde9719.md": "/anilkorkmaz.github.io/static/media/03-folder_or_file_size_command.1fde9719.md",
     "static/media/03-injenctions.bc0d71ed.md": "/anilkorkmaz.github.io/static/media/03-injenctions.bc0d71ed.md",
     "static/media/03-postgres_restore.eb159078.md": "/anilkorkmaz.github.io/static/media/03-postgres_restore.eb159078.md",
+    "static/media/03-redux_with_hooks.3a8ceae5.md": "/anilkorkmaz.github.io/static/media/03-redux_with_hooks.3a8ceae5.md",
     "static/media/03-timezone_convert.1911b312.md": "/anilkorkmaz.github.io/static/media/03-timezone_convert.1911b312.md",
     "static/media/04-jdk_based_dockerfile.52ecf326.md": "/anilkorkmaz.github.io/static/media/04-jdk_based_dockerfile.52ecf326.md",
     "static/media/04-ldt_custom_format.035ae160.md": "/anilkorkmaz.github.io/static/media/04-ldt_custom_format.035ae160.md",
@@ -67,6 +68,6 @@
     "static/js/runtime-main.fe8a197d.js",
     "static/js/2.ba6ef29a.chunk.js",
     "static/css/main.adc13e32.chunk.css",
-    "static/js/main.e783c8e4.chunk.js"
+    "static/js/main.0aff76dc.chunk.js"
   ]
 }
