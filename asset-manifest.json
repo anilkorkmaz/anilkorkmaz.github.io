@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/anilkorkmaz.github.io/static/css/main.adc13e32.chunk.css",
-    "main.js": "/anilkorkmaz.github.io/static/js/main.c70d8db1.chunk.js",
-    "main.js.map": "/anilkorkmaz.github.io/static/js/main.c70d8db1.chunk.js.map",
+    "main.js": "/anilkorkmaz.github.io/static/js/main.e783c8e4.chunk.js",
+    "main.js.map": "/anilkorkmaz.github.io/static/js/main.e783c8e4.chunk.js.map",
     "runtime-main.js": "/anilkorkmaz.github.io/static/js/runtime-main.fe8a197d.js",
     "runtime-main.js.map": "/anilkorkmaz.github.io/static/js/runtime-main.fe8a197d.js.map",
     "static/js/2.ba6ef29a.chunk.js": "/anilkorkmaz.github.io/static/js/2.ba6ef29a.chunk.js",
@@ -15,12 +15,14 @@
     "static/media/01-default_in_interface.326f0b14.md": "/anilkorkmaz.github.io/static/media/01-default_in_interface.326f0b14.md",
     "static/media/01-docker_basic.6f6b4b16.md": "/anilkorkmaz.github.io/static/media/01-docker_basic.6f6b4b16.md",
     "static/media/01-psql_basics.efae0533.md": "/anilkorkmaz.github.io/static/media/01-psql_basics.efae0533.md",
+    "static/media/01-react_hooks_useState.f14eff37.md": "/anilkorkmaz.github.io/static/media/01-react_hooks_useState.f14eff37.md",
     "static/media/01-rest_date_time_format.db44fce4.md": "/anilkorkmaz.github.io/static/media/01-rest_date_time_format.db44fce4.md",
     "static/media/01-user_management.77586250.md": "/anilkorkmaz.github.io/static/media/01-user_management.77586250.md",
     "static/media/02-bash_script_get_parameters.cdfc9a25.md": "/anilkorkmaz.github.io/static/media/02-bash_script_get_parameters.cdfc9a25.md",
     "static/media/02-container_auto_restart.b1be5bbf.md": "/anilkorkmaz.github.io/static/media/02-container_auto_restart.b1be5bbf.md",
     "static/media/02-convert_date_types.9dad1d8a.md": "/anilkorkmaz.github.io/static/media/02-convert_date_types.9dad1d8a.md",
     "static/media/02-postgres_backup.e51448c2.md": "/anilkorkmaz.github.io/static/media/02-postgres_backup.e51448c2.md",
+    "static/media/02-react_hooks_useEffects.47e0b1c5.md": "/anilkorkmaz.github.io/static/media/02-react_hooks_useEffects.47e0b1c5.md",
     "static/media/02-stopwatch_using.172ec7af.md": "/anilkorkmaz.github.io/static/media/02-stopwatch_using.172ec7af.md",
     "static/media/03-dockerfile.a356919e.md": "/anilkorkmaz.github.io/static/media/03-dockerfile.a356919e.md",
     "static/media/03-folder_or_file_size_command.1fde9719.md": "/anilkorkmaz.github.io/static/media/03-folder_or_file_size_command.1fde9719.md",
@@ -65,6 +67,6 @@
     "static/js/runtime-main.fe8a197d.js",
     "static/js/2.ba6ef29a.chunk.js",
     "static/css/main.adc13e32.chunk.css",
-    "static/js/main.c70d8db1.chunk.js"
+    "static/js/main.e783c8e4.chunk.js"
   ]
 }
