@@ -10,9 +10,13 @@ const ContentSide = (props) => {
    const { contentList } = props;
 
    const onClick = async (md) => {
-
-      fetch(md).then(res => res.text()).then(text => setContent(text));
-      setElementClick(true)
+      try {
+         fetch(md).then(res => res.text()).then(text => setContent(text));
+         setElementClick(true)
+      } catch (error) {
+         console.log("markdown read error");
+         setElementClick(false);
+      }
    }
 
    const closeModal = () => {
