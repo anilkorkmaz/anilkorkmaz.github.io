@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/anilkorkmaz.github.io/static/css/main.4d1bc82b.chunk.css",
-    "main.js": "/anilkorkmaz.github.io/static/js/main.9aabfc28.chunk.js",
-    "main.js.map": "/anilkorkmaz.github.io/static/js/main.9aabfc28.chunk.js.map",
-    "runtime-main.js": "/anilkorkmaz.github.io/static/js/runtime-main.f8135f18.js",
-    "runtime-main.js.map": "/anilkorkmaz.github.io/static/js/runtime-main.f8135f18.js.map",
-    "static/js/2.f1a630f5.chunk.js": "/anilkorkmaz.github.io/static/js/2.f1a630f5.chunk.js",
-    "static/js/2.f1a630f5.chunk.js.map": "/anilkorkmaz.github.io/static/js/2.f1a630f5.chunk.js.map",
-    "static/js/3.a35a56c9.chunk.js": "/anilkorkmaz.github.io/static/js/3.a35a56c9.chunk.js",
-    "static/js/3.a35a56c9.chunk.js.map": "/anilkorkmaz.github.io/static/js/3.a35a56c9.chunk.js.map",
+    "main.css": "/anilkorkmaz.github.io/static/css/main.abd80cf7.chunk.css",
+    "main.js": "/anilkorkmaz.github.io/static/js/main.70ee35c6.chunk.js",
+    "main.js.map": "/anilkorkmaz.github.io/static/js/main.70ee35c6.chunk.js.map",
+    "runtime-main.js": "/anilkorkmaz.github.io/static/js/runtime-main.a7df7979.js",
+    "runtime-main.js.map": "/anilkorkmaz.github.io/static/js/runtime-main.a7df7979.js.map",
+    "static/js/2.d7a1f9e8.chunk.js": "/anilkorkmaz.github.io/static/js/2.d7a1f9e8.chunk.js",
+    "static/js/2.d7a1f9e8.chunk.js.map": "/anilkorkmaz.github.io/static/js/2.d7a1f9e8.chunk.js.map",
+    "static/js/3.a83df896.chunk.js": "/anilkorkmaz.github.io/static/js/3.a83df896.chunk.js",
+    "static/js/3.a83df896.chunk.js.map": "/anilkorkmaz.github.io/static/js/3.a83df896.chunk.js.map",
     "index.html": "/anilkorkmaz.github.io/index.html",
-    "static/css/main.4d1bc82b.chunk.css.map": "/anilkorkmaz.github.io/static/css/main.4d1bc82b.chunk.css.map",
-    "static/js/2.f1a630f5.chunk.js.LICENSE.txt": "/anilkorkmaz.github.io/static/js/2.f1a630f5.chunk.js.LICENSE.txt",
+    "static/css/main.abd80cf7.chunk.css.map": "/anilkorkmaz.github.io/static/css/main.abd80cf7.chunk.css.map",
+    "static/js/2.d7a1f9e8.chunk.js.LICENSE.txt": "/anilkorkmaz.github.io/static/js/2.d7a1f9e8.chunk.js.LICENSE.txt",
     "static/media/01-default_in_interface.326f0b14.md": "/anilkorkmaz.github.io/static/media/01-default_in_interface.326f0b14.md",
     "static/media/01-docker_basic.6f6b4b16.md": "/anilkorkmaz.github.io/static/media/01-docker_basic.6f6b4b16.md",
     "static/media/01-psql_basics.efae0533.md": "/anilkorkmaz.github.io/static/media/01-psql_basics.efae0533.md",
@@ -65,9 +65,9 @@
     "static/media/14-create_bootable_disk.6e7bb96c.md": "/anilkorkmaz.github.io/static/media/14-create_bootable_disk.6e7bb96c.md"
   },
   "entrypoints": [
-    "static/js/runtime-main.f8135f18.js",
-    "static/js/2.f1a630f5.chunk.js",
-    "static/css/main.4d1bc82b.chunk.css",
-    "static/js/main.9aabfc28.chunk.js"
+    "static/js/runtime-main.a7df7979.js",
+    "static/js/2.d7a1f9e8.chunk.js",
+    "static/css/main.abd80cf7.chunk.css",
+    "static/js/main.70ee35c6.chunk.js"
   ]
 }
