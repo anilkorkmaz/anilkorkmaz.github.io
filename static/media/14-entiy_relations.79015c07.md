@@ -21,11 +21,15 @@ public class Group {
     @OneToMany(mappedBy = "group", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<GroupUser> users = new ArrayList<>();
 }
+```
 
+```java
 public enum GroupPrivacy {
     OPEN, CLOSED
 }
+```
 
+```java
 @Getter
 @Setter
 @Entity
@@ -44,7 +48,9 @@ public class GroupUser  {
     private LocalDateTime joinDate;
 
 }
+```
 
+```java
 @Getter
 @Setter
 @Entity
@@ -74,5 +80,4 @@ public class User  {
     setFullName(this.name + this.surname));
     }
 }
-
 ```
