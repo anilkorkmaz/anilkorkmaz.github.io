@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.adc13e32.chunk.css",
-    "main.js": "/static/js/main.515c2214.chunk.js",
-    "main.js.map": "/static/js/main.515c2214.chunk.js.map",
+    "main.js": "/static/js/main.66696a34.chunk.js",
+    "main.js.map": "/static/js/main.66696a34.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.54c6c587.js",
     "runtime-main.js.map": "/static/js/runtime-main.54c6c587.js.map",
     "static/js/2.ba6ef29a.chunk.js": "/static/js/2.ba6ef29a.chunk.js",
@@ -63,12 +63,13 @@
     "static/media/12-lombok.8eadd918.md": "/static/media/12-lombok.8eadd918.md",
     "static/media/13-display_last_boot_logs.c0397ce2.md": "/static/media/13-display_last_boot_logs.c0397ce2.md",
     "static/media/13-spring_task.652885de.md": "/static/media/13-spring_task.652885de.md",
-    "static/media/14-create_bootable_disk.6e7bb96c.md": "/static/media/14-create_bootable_disk.6e7bb96c.md"
+    "static/media/14-create_bootable_disk.6e7bb96c.md": "/static/media/14-create_bootable_disk.6e7bb96c.md",
+    "static/media/14-entiy_relations.f95ef2f6.md": "/static/media/14-entiy_relations.f95ef2f6.md"
   },
   "entrypoints": [
     "static/js/runtime-main.54c6c587.js",
     "static/js/2.ba6ef29a.chunk.js",
     "static/css/main.adc13e32.chunk.css",
-    "static/js/main.515c2214.chunk.js"
+    "static/js/main.66696a34.chunk.js"
   ]
 }
