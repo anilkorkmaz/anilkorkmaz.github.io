@@ -13,6 +13,7 @@ import h2_db_connection from './content/10-h2_db_connection.md'
 import execution_time_aop from './content/11-execution_time_aop.md'
 import lombok from './content/12-lombok.md'
 import spring_task from './content/13-spring_task.md'
+import entity_relation from './content/14-entiy_relations.md'
 
 const Springboot = () => {
 
@@ -68,6 +69,10 @@ const Springboot = () => {
       {
          name: "Spring task / Thread Executer",
          mdfile: spring_task
+      },
+      {
+         name: "Entity relations",
+         mdfile: entity_relation
       },
    ];
 

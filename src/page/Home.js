@@ -8,7 +8,7 @@ const Whoami = () => {
          <img src={process.env.PUBLIC_URL + '/doge.gif'} style={{ maxWidth: '80%' }} alt="logo" />
          <div>
             <div >
-               <b style={{ fontWeight: 600 }}>Anıl Korkmaz</b> - Software Developper
+               <b style={{ fontWeight: 600 }}>Anıl Korkmaz</b> - Software Developer
                <br />
                <p style={{ fontWeight: 300 , display:'inline'}}> anil.korkmaz@mail.com</p>
             </div>

@@ -8,6 +8,7 @@ import start_stop_all_container from './content/05-start_stop_all_container.md'
 import postgres_container_setup from './content/06-postgres_container_setup.md'
 import keycloak_container_setup from './content/07-keycloak_container_setup.md'
 import rabbitmq_container_setup from './content/08-rabbitmq_container_setup.md'
+import docker_compose from './content/09-docker_compese.md'
 
 const Docker = () => {
 
@@ -43,6 +44,10 @@ const Docker = () => {
       {
          name: "Sample RabbitMq Container setup",
          mdfile: rabbitmq_container_setup
+      },
+      {
+         name: "Docker Compose",
+         mdfile: docker_compose
       }];
 
       return <ContentSide contentList={object} />
