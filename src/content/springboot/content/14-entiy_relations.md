@@ -21,11 +21,15 @@ public class Group {
     @OneToMany(mappedBy = "group", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<GroupUser> users = new ArrayList<>();
 }
+```
 
+```java
 public enum GroupPrivacy {
     OPEN, CLOSED
 }
+```
 
+```java
 @Getter
 @Setter
 @Entity
@@ -44,7 +48,9 @@ public class GroupUser  {
     private LocalDateTime joinDate;
 
 }
+```
 
+```java
 @Getter
 @Setter
 @Entity
@@ -54,14 +60,10 @@ public class User  {
     @GenericField(sortable = Sortable.YES)
     private Long id;
 
-    @KeywordField(searchable = Searchable.YES, sortable = Sortable.YES, normalizer = "lowercase")
     private String name;
 
-    @KeywordField(searchable = Searchable.YES, sortable = Sortable.YES, normalizer = "lowercase")
     private String surname;
 
-    @ToString.Include
-    @KeywordField(searchable = Searchable.YES, sortable = Sortable.YES, normalizer = "lowercase")
     private String fullName;
 
     @PrePersist
@@ -74,5 +76,4 @@ public class User  {
     setFullName(this.name + this.surname));
     }
 }
-
 ```

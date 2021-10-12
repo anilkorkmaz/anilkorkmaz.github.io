@@ -14,6 +14,8 @@ import execution_time_aop from './content/11-execution_time_aop.md'
 import lombok from './content/12-lombok.md'
 import spring_task from './content/13-spring_task.md'
 import entity_relation from './content/14-entiy_relations.md'
+import hql_queries from './content/15-hql_queries.md'
+import criteria_api from './content/16-criteria_api.md'
 
 const Springboot = () => {
 
@@ -73,6 +75,14 @@ const Springboot = () => {
       {
          name: "Entity relations",
          mdfile: entity_relation
+      },      
+      {
+         name: "HQL queries",
+         mdfile: hql_queries
+      },
+      {
+         name: "Criteria api",
+         mdfile: criteria_api
       },
    ];
 

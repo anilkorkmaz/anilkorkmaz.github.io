@@ -1,79 +1,36 @@
-#  Entity Relations
+#  HQL Queries
 
-## Add EnableScheduling Annotation to Main SpringBootApplication class
+* To review the TABLE structure, see **Entity Relations** page
+
+## Join
+```java
+  @Query("select g from Group g join g.users gu where gu.user.id = :userId")
+  List<Group> findAllGroupsByUserId(Long userId);
+```
+
+## Fetch
+```java
+  @Query("select g from Group g join fetch g.users gu ")
+  List<Group> findAllGroups();
+```
+
+## Null check
+```java
+  @Query("select gu from Group g join g.users gu left join fetch gu.user where g.id = :groupId and (:lastUserId is null or gu.user.id <:lastUserId) order by gu.user.id desc")
+  List<GroupUser> findGroupUsersByAdminStatus(Long groupId, Long lastUserId, Pageable pageable);
+
+```
+
+# In clouse for Enum
+```java
+  @Query("select g from Group g join g.users gu where gu.user.id = :userId and (COALESCE(:groupType, null) is null or g.type in (:groupType)) ")
+  List<Group> findAllGroupsByUser(@Param("userId") Long userId,
+                                  @Param("groupType") List<GroupType> groupType);
+```
+
+# Empty check
 
 ```java
-@Getter
-@Setter
-@Entity
-public class Group {
-
-    @Id
-    @GenericField(sortable = Sortable.YES)
-    private Long id;
-
-    private String name;
-
-    private GroupType type;
-
-    @Enumerated(EnumType.STRING)
-    private GroupPrivacy privacy;
-
-    @OneToMany(mappedBy = "group", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private List<GroupUser> users = new ArrayList<>();
-}
-
-public enum GroupPrivacy {
-    OPEN, CLOSED
-}
-
-@Getter
-@Setter
-@Entity
-public class GroupUser  {
-
-    @Id
-    @GenericField(sortable = Sortable.YES)
-    private Long id;
-
-    @ManyToOne(fetch = FetchType.LAZY)
-    private User user;
-
-    @ManyToOne(fetch = FetchType.LAZY)
-    private Group group;
-
-    private LocalDateTime joinDate;
-
-}
-
-@Getter
-@Setter
-@Entity
-public class User  {
-
-    @Id
-    @GenericField(sortable = Sortable.YES)
-    private Long id;
-
-    @KeywordField(searchable = Searchable.YES, sortable = Sortable.YES, normalizer = "lowercase")
-    private String name;
-
-    @KeywordField(searchable = Searchable.YES, sortable = Sortable.YES, normalizer = "lowercase")
-    private String surname;
-
-    @ToString.Include
-    @KeywordField(searchable = Searchable.YES, sortable = Sortable.YES, normalizer = "lowercase")
-    private String fullName;
-
-    @PrePersist
-    protected void onBaseCreate() {
-    setFullName(this.name + this.surname));
-    }
-
-    @PreUpdate
-    protected void onBaseUpdate() {
-    setFullName(this.name + this.surname));
-    }
-}
-
+  @Query("select g from Group g join g.users gu where g.privacy='OPEN' and (:#{#userIds.isEmpty()} = true or gu.user.id in :userIds)")
+  List<Group> findAllGroupsByUserId(List<Long> userIds);
 ```
