@@ -60,14 +60,10 @@ public class User  {
     @GenericField(sortable = Sortable.YES)
     private Long id;
 
-    @KeywordField(searchable = Searchable.YES, sortable = Sortable.YES, normalizer = "lowercase")
     private String name;
 
-    @KeywordField(searchable = Searchable.YES, sortable = Sortable.YES, normalizer = "lowercase")
     private String surname;
 
-    @ToString.Include
-    @KeywordField(searchable = Searchable.YES, sortable = Sortable.YES, normalizer = "lowercase")
     private String fullName;
 
     @PrePersist
